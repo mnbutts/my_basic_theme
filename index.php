@@ -8,7 +8,7 @@
 </head>
 	<body>
 		<header>
-			<h1>Pressed and Squeezed</h1>
+			<h1><?php bloginfo(name); ?></h1>
 			<nav>
 				<ul>
 					<li>Home</li>
