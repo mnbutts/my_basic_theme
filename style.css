@@ -45,6 +45,16 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 }
+.main {
+	width: 80%;
+	float: left;
+}
+
+.sidebar {
+	width: 20%;
+	float: left;
+	padding-left: 2em; 
+}
 
 section > section {
 	width: 60%;
@@ -75,4 +85,17 @@ footer h1 {
 
 footer p {
 	line-height: .5;
+}
+
+.clearfix:before,
+.clearfix:after{
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
 }
